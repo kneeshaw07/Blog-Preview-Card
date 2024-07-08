@@ -1,0 +1,129 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0px;
+    font-family: Figtree;
+}
+
+.main{
+    position: absolute;
+    width: 400px ;
+    height: 500px;
+    border: 1px solid black;
+    left: 600px;
+    top: 100px;
+    border-radius: 15px; 
+    background-color: white;
+    
+}
+
+.pic{
+    position: absolute;
+    width: 340px;
+    height: 180px;
+    border: 1px ;
+    margin: 20px 10px 10px 30px ;
+    border-radius: 15px;
+    background-image: url(illustration-article.svg);
+    background-size: cover;
+
+}
+
+.main .learn{
+    position: absolute;
+    top: 230px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    left: 30px;
+    background-color: hsl(47, 88%, 63%);;
+}
+
+.main .learn p{
+    position: absolute;
+    left: 25%;  
+    top: -10px;
+    font-weight: 600;
+}
+
+
+.main .pub {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+
+.main .pub p{
+    margin: 0px;
+    font-weight: 600;
+}
+
+
+.main  .html p{
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+.main  .html{
+    position: relative;
+    top: 300px;
+    left: 30px;
+}
+
+
+.main .para {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+
+}
+
+.main .para p{
+    margin: 0px;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+
+.main .profile{
+    position: absolute;
+    top: 430px;
+    left: 65px;
+}
+
+
+.main .profile p{
+    margin: 0px;
+    font-weight: 800;
+}
+
+.main .pic2{
+ position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 1px ;
+    top: 428px;
+    border-radius: 50%;
+    margin-left: 24px;
+    background-image: url(image-avatar.webp);
+    background-size: cover;
+}
+
+ .attribution{
+    position: absolute;
+    top: 470px;
+    left: 30px;
+    font-size: 14px;
+}
+
+.main .attribution a{
+    color: black;
+    
+}
+
+.main:hover{
+    box-shadow: 10px 10px 5px black;
+}
+
+
+
